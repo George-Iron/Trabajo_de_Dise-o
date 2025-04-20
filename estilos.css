@@ -1,0 +1,48 @@
+/* Estilos personalizados */
+.navbar {
+    background-color: #2c4975;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body p {
+    margin-bottom: 0.5rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    background-color: #2c4975;
+    border-color: #2c4975;
+}
+
+.btn-primary:hover {
+    background-color: #1b3352;
+    border-color: #1b3352;
+}
+
+.container-fluid h5 {
+    color: #2c4975;
+}
+
+.carousel-inner img {
+    background-position: center;
+    object-fit: cover; /* Para que la imagen se ajuste sin deformarse */
+    height: 400px; /* O cualquier altura personalizada */
+}
