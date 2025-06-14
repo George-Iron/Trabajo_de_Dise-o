@@ -1,10 +1,7 @@
-/* Estilos para el Panel de Control */
-
 body {
     background-color: #f8f9fa;
 }
 
-/* Estilo para el grid del dashboard principal */
 .tablero-principal {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -19,7 +16,6 @@ body {
     background-color: #343a40 !important;
 }
 
-/* Contenedor de formularios */
 .form-container {
     background: #ffffff;
     padding: 2rem;
